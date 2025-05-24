@@ -26,6 +26,20 @@ Subbasin. This software was made for the Hydrology field.
 
 ## Documentation
 
+### Goals
+1. **Combine Curve number estimataion calculators** - *SUCCESSFUL*:
+    able to completely stitch together all the relevant calculators
+    into one python file
+2. **Modular Design** - *INCONCLUSIVE*: will need to use these in other
+    applications than SCS
+3. **Use Object Oriented Programming** - *SUCCESSFUL*: multiple classes
+    were created, each inspired by its respective python app
+4. **Quick Curve Number Calculation** - *SUCCESSFUL*: calculation takes
+    less than two (2) seconds according to Powershell's Measure-Command
+    `start process <what you want to execute> -Wait` Command
+5. **Attachable to other projects** - *INCONCLUSIVE*: will need to attempt
+    gui and qgis functionality
+
 Future updates to improve the programs useability for public use.
 Some possible updates include:
 1. Graphical User Interface

@@ -1,29 +1,3 @@
-# Project: Curve Number Estimator
-# Written By: Ned Santiago
-# Started on: 20230710 - July 10, 2023
-# Goals: 
-# 1. To stitch together all the curve number estimation calculators
-# SUCCESSFUL: able to completely stitch together all the relevant calculators
-#       into one python file
-#
-# 2. To create a modular calculator whereby each component has the potential
-#       for use in other projects
-# INCONCLUSIVE: will need to use these in other application other than SCS
-#
-# 3. To follow an object oriented programming approach to the project
-# SUCCSESSFUL: multiple objects were built, each inspired by its respective python app
-#
-# 4. To quickly calculate for the curve numbers when given the subbasin areas
-# SUCCESSFUL: calculation takes less than two (2) seconds according to 
-#       Powershell's Measure-Command {start-process whateveryouwantexecute -Wait} Command
-#
-# 5. To have some capability to plugging into future projects such as
-#       a qgis subbasin calculator, a gui graphics, or any automation tools
-# INCONCLUSIVE: will need to attempt gui and qgis functionality
-#
-# VERSION 1.0.0 completed on 20230711 - July 11, 2023
-
-
 import pandas as pd
 import numpy as np
 from os import path
